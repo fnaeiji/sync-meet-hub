@@ -32,6 +32,9 @@ const Index = () => {
               <Button variant="secondary" asChild>
                 <Link to="/dashboard">Open dashboard</Link>
               </Button>
+              <Button variant="ghost" asChild>
+                <Link to="/login">Log in</Link>
+              </Button>
             </div>
           </div>
           <div className="card-elevated overflow-hidden">
